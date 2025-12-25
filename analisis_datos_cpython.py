@@ -1,3 +1,4 @@
+
 # Carguemos los datos (128369 FILAs x 11 COLUMNAS )
 import pandas as pd
 cpython = pd.read_csv("https://raw.githubusercontent.com/robintux/Datasets4StackOverFlowQuestions/refs/heads/master/cpython_commit_history_pre.csv")
@@ -31,8 +32,5 @@ plt.gca().invert_yaxis()
 plt.savefig("Cpython_top10_developers.png", dpi = 300)
 plt.show()
 
-
-
-
-
-
+# Esta linea a sido agregada en una computadora completamente diferente
+# a donde se creo el repositorio (notebook de kaggle)
